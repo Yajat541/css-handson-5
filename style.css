@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(231, 210, 53)
+}
+header{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+.row1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(54, 104, 243, 0.816);
+    border: 1px solid black;
+    animation:yajat 2s infinite alternate;
+    margin: 20px;
+    transition: 1s ease;
+}
+@keyframes yajat{
+    0%{
+        transform: skew(30deg);
+    }
+    100%{
+        transform: skew(-30deg);
+    }
+}
+.row2{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 30px;
+    animation: sample 2s infinite alternate;
+    transition: 1s ease;
+}
+@keyframes sample{
+    0%{
+        transform: skewY(30deg);
+    }
+    100%{
+        transform: skewY(-30deg);
+    }
+}
+.row3{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(54, 104, 243, 0.816);
+    margin: 40px;
+    animation: sample1 2s infinite alternate;
+    transition: 1s linear;
+}
+@keyframes sample1{
+    0%{
+        transform: rotate(180deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-180deg);
+    }
+}
+.row4{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(54, 104, 243, 0.816);
+  margin: 40px;
+  animation: sample2 2s infinite alternate;
+  transition: 1s ease;
+}
+@keyframes sample2{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{   
+        transform: scale(1,0.5);
+    }
+}
+.row42{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: 40px;
+    animation: sample42 2s infinite alternate;
+    transition: 1s ease;
+}
+@keyframes sample42{
+    0%{
+        transform: scale(1,1);
+    }
+    100%{
+        transform: scale(0.5,1);
+    }
+}
+.row43{
+    width: 100px;
+    height: 100px;
+    background-color:green;
+    margin: 40px;
+    animation: sample43 2s infinite alternate;
+    transition: 1s ease;
+}
+@keyframes sample43{
+    0%{
+        transform: rotate(180deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-180deg);
+    }
+}
+.num{
+    padding-top:120px;
+}
+a{
+    text-align: center;
+}
+
+
+
+

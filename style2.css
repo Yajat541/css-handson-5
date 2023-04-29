@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(231, 210, 53)
+}
+header{
+    text-align: center;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    transition: 1s ease;
+    margin-top: 20px;
+}
+.box1:hover{
+    width: 300px;
+}
+.box12{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    transition: 1s ease;
+    margin-top: 20px;
+}
+.box12:hover{
+    width:300px;
+    height: 300px;
+}
+a{
+    text-align: center;
+    line-height: 3px;
+}
+
